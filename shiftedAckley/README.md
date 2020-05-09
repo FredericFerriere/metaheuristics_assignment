@@ -1,4 +1,4 @@
-# Shifted Rastrigin
+# Shifted Ackley
 
 ## How to run the code
 
@@ -20,7 +20,7 @@ Stopping criterion: || gradient || < tol, with tol=1e-2 and infinity norm.
 
 ### Results
 
-Optimum found: XXX (known optimum -330)
+Optimum found: XXX (known optimum -140)
 
 number of function evaluations: X
 
@@ -40,7 +40,7 @@ Stopping criterion: || gradient || < tol, with tol=1e-2 and infinity norm.
 
 ### Results
 
-Optimum found: X (known optimum -330)
+Optimum found: X (known optimum -140)
 
 number of function evaluations: X
 
