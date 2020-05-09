@@ -10,8 +10,8 @@ Summary of Results
 |  ShiftedSphere_500  |  -450  |  -449.99  |  0.1 s |  3   |
 |  ShiftedSchwefel_50  |  -450  |  -450  |  0.01 s |  86   |
 |  ShiftedSchwefel_500  |  -450  |  -450  |  0.15 s |  536   |
-|  ShiftedRosenbrock_50  |  x  |  x  |  x s |  x   |
-|  ShiftedRosenbrock_500  |  x  |  x  |  x s |  x   |
+|  ShiftedRosenbrock_50  |  390  |  390  |  0.81 s |  669   |
+|  ShiftedRosenbrock_500  |  390  |  390.01  |  72.5 s |  5638   |
 |  ShiftedRastrigin_50  |  x  |  x  |  x s |  x   |
 |  ShiftedRastrigin_500  |  x  |  x  |  x s |  x   |
 |  ShiftedGriewank_50  |  x  |  x  |  x s |  x   |
