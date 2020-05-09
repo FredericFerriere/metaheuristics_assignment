@@ -77,3 +77,4 @@ Convergence curve:
 
 Solution:  
 ![](path.png)
+d
