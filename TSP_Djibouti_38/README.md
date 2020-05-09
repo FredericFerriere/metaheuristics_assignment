@@ -76,5 +76,4 @@ Convergence curve:
 ![](convergenceCurves.png)
 
 Solution:  
-![](path.png)
-d
+![](Path.png)
