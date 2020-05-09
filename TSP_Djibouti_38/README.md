@@ -20,9 +20,9 @@ An important aspect of the algorithm is the choice of perturbation of the soluti
 
 ## Parameters:
 
-initial temperature: 10
-final temperature: 0.008
-cool factor: 0.9
+initial temperature: 10  
+final temperature: 0.008  
+cool factor: 0.9  
 maximum number of iterations at given temperature: 380 (10 times the number of cities)
 
 ## Final Results:
