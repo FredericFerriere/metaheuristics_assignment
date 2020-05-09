@@ -10,9 +10,9 @@ The notebook is self contained:
 
 Custom algorithm.
 
-We want to minimise f(x, n) where n is the dimension.
-For n = 1: f1 = f(x,1) = | x1-z1 | + fmin
-We can easily solve for x1 using a 1d search (for example Brent algorithm). We obtain x1* and fmin
+We want to minimise f(x, n) where n is the dimension.  
+For n = 1: f1 = f(x,1) = | x1-z1 | + fmin  
+We can easily solve for x1 using a 1d search (for example Brent algorithm). We obtain x1* and fmin  
 Next dimension: set x1 = x1*  
 Then f2 = f(x,2) = max(|x1-z1|,|x2-z2|) + fmin = |x2-z2| + fmin since x1-z1 = 0  
 we obtain x2 - z2 = +/- (f2 - fmin)  

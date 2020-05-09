@@ -8,8 +8,8 @@ Summary of Results
 |  Qatar194  |  9352  |  10448  |  100.61s |  244,853   |
 |  ShiftedSphere_50  |  -450  |  -450  |  0.01 s |  3   |
 |  ShiftedSphere_500  |  -450  |  -449.99  |  0.1 s |  3   |
-|  ShiftedSchwefel_50  |  x  |  x  |  x s |  x   |
-|  ShiftedSchwefel_500  |  x  |  x  |  x s |  x   |
+|  ShiftedSchwefel_50  |  -450  |  -450  |  0.01 s |  86   |
+|  ShiftedSchwefel_500  |  -450  |  -450  |  0.15 s |  536   |
 |  ShiftedRosenbrock_50  |  x  |  x  |  x s |  x   |
 |  ShiftedRosenbrock_500  |  x  |  x  |  x s |  x   |
 |  ShiftedRastrigin_50  |  x  |  x  |  x s |  x   |
