@@ -74,3 +74,6 @@ Computational Time: 1.45 seconds
 
 Convergence curve:
 ![](convergenceCurves.png)
+
+Solution:  
+![](path.png)
