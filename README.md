@@ -14,7 +14,7 @@ Summary of Results
 |  ShiftedRosenbrock_500  |  390  |  390.01  |  72.5 s |  5638   |
 |  ShiftedRastrigin_50  |  x  |  x  |  x s |  x   |
 |  ShiftedRastrigin_500  |  x  |  x  |  x s |  x   |
-|  ShiftedGriewank_50  |  x  |  x  |  x s |  x   |
-|  ShiftedGriewank_500  |  x  |  x  |  x s |  x   |
+|  ShiftedGriewank_50  |  -180  |  -180  |  0.23 s |  24   |
+|  ShiftedGriewank_500  |  -180  |  -180  |  9.89 s |  27   |
 |  ShiftedAckley_50  |  x  |  x  |  x s |  x   |
 |  ShiftedAckley_500  |  x  |  x  |  x s |  x   |
