@@ -1,9 +1,9 @@
-# Shifted ShiftedSphere
+# Shifted Sphere
 
 ## How to run the code
 
 The notebook is self contained:
-* The function to optimise is implemented at the top of the notebook
+* The function to optimise is implemented in the file functionToOptimise.py  
 * Libraries needed: numpy, scipy
 
 ## Algorithm
