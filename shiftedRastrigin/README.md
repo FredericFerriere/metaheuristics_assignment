@@ -9,7 +9,7 @@ The notebook is self contained:
 ## Algorithm
 
 Custom Algorithm.
-We will optimise along each dimension independantly since we can separate the D dimensional optimisation into D 1-dimensional optimisations. The search space is [-5,5] along each dimension. The cos function creates many local optima in that space but we know the frequency so we can split the search space into 10 ranges [-5,4], [-4,3], ..., [4,5].  
+We will optimise along each dimension independantly since we can separate the D dimensional optimisation into D 1-dimensional optimisations. The search space is [-5,5] along each dimension. The cos function creates many local optima in that space but we know the frequency so we can split the search space into 10 ranges [-5,-4], [-4,-3], ..., [4,5].  
 For each subrange, run a brent optimisation to find a local minimum. The global minimum is the best solution amongst the 10 local minima we obtained.  Repeat this procedure for each dimension, keeping other values in the vector fixed. Note that the algorithm can be parallelised across dimensions and search space.
 
 ## Dimension 50

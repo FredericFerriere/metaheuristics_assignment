@@ -16,5 +16,5 @@ Summary of Results
 |  ShiftedRastrigin_500  |  -330  |  -330  |  5.05 s |  41250   |
 |  ShiftedGriewank_50  |  -180  |  -180  |  0.23 s |  24   |
 |  ShiftedGriewank_500  |  -180  |  -180  |  9.89 s |  27   |
-|  ShiftedAckley_50  |  x  |  x  |  x s |  x   |
-|  ShiftedAckley_500  |  x  |  x  |  x s |  x   |
+|  ShiftedAckley_50  |  -140  |  -140  |  1.35 s |  35678   |
+|  ShiftedAckley_500  |  -140  |  -140  |  25.6 s |  491073   |
