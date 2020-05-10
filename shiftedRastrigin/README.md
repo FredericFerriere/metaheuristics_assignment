@@ -8,44 +8,36 @@ The notebook is self contained:
 
 ## Algorithm
 
-XXXXXX
+Custom Algorithm.
+We will optimise along each dimension independantly since we can separate the D dimensional optimisation into D 1-dimensional optimisations. The search space is [-5,5] along each dimension. The cos function creates many local optima in that space but we know the frequency so we can split the search space into 10 ranges [-5,4], [-4,3], ..., [4,5].  
+For each subrange, run a brent optimisation to find a local minimum. The global minimum is the best solution amongst the 10 local minima we obtained.  Repeat this procedure for each dimension, keeping other values in the vector fixed. Note that the algorithm can be parallelised across dimensions and search space.
 
 ## Dimension 50
 
 ### Parameters
 
-XXXX
-
-Stopping criterion: || gradient || < tol, with tol=1e-2 and infinity norm.
+Stopping criterion: | x - xprev | < tol, with tol=1e-3 for each brent search in range [a, a+1].
 
 ### Results
 
-Optimum found: XXX (known optimum -330)
+Optimum found: -330 (known optimum -330)
 
-number of function evaluations: X
+number of function evaluations: 4067
 
-computational Time: X s
-
-convergence curve
-
-![](convergenceCurve_dim_50.png)
+computational Time: 0.31 s
 
 ## Dimension 500
 
 ### Parameters
 
-XXX
-
-Stopping criterion: || gradient || < tol, with tol=1e-2 and infinity norm.
+Stopping criterion: | x - xprev | < tol, with tol=1e-3 for each brent search in range [a, a+1].
 
 ### Results
 
-Optimum found: X (known optimum -330)
+Optimum found: -330 (known optimum -330)
 
-number of function evaluations: X
+number of function evaluations: 41250
 
-computational Time: x s
+computational Time: 5.05 s
 
-convergence curve
-
-![](convergenceCurve_dim_500.png)
+Nota: Given the nature of the algorithm, we cannot obtain convergence curves.

@@ -12,8 +12,8 @@ Summary of Results
 |  ShiftedSchwefel_500  |  -450  |  -450  |  0.15 s |  536   |
 |  ShiftedRosenbrock_50  |  390  |  390  |  0.81 s |  669   |
 |  ShiftedRosenbrock_500  |  390  |  390.01  |  72.5 s |  5638   |
-|  ShiftedRastrigin_50  |  x  |  x  |  x s |  x   |
-|  ShiftedRastrigin_500  |  x  |  x  |  x s |  x   |
+|  ShiftedRastrigin_50  |  -330  |  -330  |  0.31 s |  4067   |
+|  ShiftedRastrigin_500  |  -330  |  -330  |  5.05 s |  41250   |
 |  ShiftedGriewank_50  |  -180  |  -180  |  0.23 s |  24   |
 |  ShiftedGriewank_500  |  -180  |  -180  |  9.89 s |  27   |
 |  ShiftedAckley_50  |  x  |  x  |  x s |  x   |
