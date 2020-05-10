@@ -10,45 +10,38 @@ The notebook is self contained:
 
 Custom algorithm.
 
-We want to minimise f(x, n) where n is the dimension.  
-For n = 1: f1 = f(x,1) = | x1-z1 | + fmin  
-We can easily solve for x1 using a 1d search (for example Brent algorithm). We obtain x1* and fmin  
-Next dimension: set x1 = x1*  
-Then f2 = f(x,2) = max(|x1-z1|,|x2-z2|) + fmin = |x2-z2| + fmin since x1-z1 = 0  
-we obtain x2 - z2 = +/- (f2 - fmin)  
-we evaluate both possible solutions and pick the one that minimizes the f(x2), we obtain x2* and set x2 = x2*
-And so on for each following dimension.
+Focus in first dimension to start with. We can use a simple 1d search algorithm (brent) and optimise along this dimension to find x1*.  
+Plug x1* into the solution vector, freeze this value for dimension 1 and use the same algorithm to find the optimum for dimension 2, x2*.  Use the same procedure iteravely for all subsequent dimensions.
 
-Algorith complexity: For dimension 1, 1d search on a convex function, so very quick.
-For all other dimensions, 2 function evaluations for each dimension.
+Algorith complexity: For each dimension 1, the function is convex, so very quick.
 
 ## Dimension 50
 
 ### Parameters
 
-Stopping criterion: | f(xnew) - f(x) | < tol, with tol=1e-10.
+Stopping criterion: | f(xnew) - f(x) | < tol, with tol=1e-6.
 
 ### Results
 
 Optimum found: -450 (known optimum -450)
 
-number of function evaluations: 86
+number of function evaluations: 1030
 
-computational Time: 0.01 s
+computational Time: 0.05 s
 
 
 ## Dimension 500
 
 ### Parameters
 
-Stopping criterion: | f(xnew) - f(x) | < tol, with tol=1e-10.
+Stopping criterion: | f(xnew) - f(x) | < tol, with tol=1e-6.
 
 ### Results
 
 Optimum found: -450 (known optimum -450)
 
-number of function evaluations: 536
+number of function evaluations: 10505
 
-computational Time: 0.15 s
+computational Time: 1.02 s
 
 Nota: Given the nature of the algorithm, we cannot obtain convergence curves.
