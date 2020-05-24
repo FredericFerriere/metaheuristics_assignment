@@ -40,7 +40,7 @@ Optimum found: -449.99 (known optimum -450)
 
 number of function evaluations: 3
 
-computational Time: 0.1 s
+computational Time: 0.05 s
 
 convergence curve
 
