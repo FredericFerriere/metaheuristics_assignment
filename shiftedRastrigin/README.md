@@ -22,9 +22,9 @@ Stopping criterion: | x - xprev | < tol, with tol=1e-3 for each brent search in 
 
 Optimum found: -330 (known optimum -330)
 
-number of function evaluations: 4067
+number of function evaluations: 4,067
 
-computational Time: 0.31 s
+computational Time: 0.14 s
 
 ## Dimension 500
 
@@ -36,8 +36,13 @@ Stopping criterion: | x - xprev | < tol, with tol=1e-3 for each brent search in 
 
 Optimum found: -330 (known optimum -330)
 
-number of function evaluations: 41250
+number of function evaluations: 41,250
 
-computational Time: 5.05 s
+computational Time: 1.94 s
 
 Nota: Given the nature of the algorithm, we cannot obtain convergence curves.
+
+
+### Calculating the number of function evaluations
+
+No calculation needed, the algorithm already returns the number of function evaluations rather than the number of iterations.

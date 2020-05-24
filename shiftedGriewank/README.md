@@ -20,9 +20,9 @@ Stopping criterion: || gradient || < tol, with tol=1e-6 and infinity norm.
 
 Optimum found: -180 (known optimum -180)
 
-number of function evaluations: 24
+number of function evaluations: 404
 
-computational Time: 0.23 s
+computational Time: 0.08 s
 
 convergence curve
 
@@ -38,10 +38,16 @@ Stopping criterion: || gradient || < tol, with tol=1e-6 and infinity norm.
 
 Optimum found: -180 (known optimum -180)
 
-number of function evaluations: 27
+number of function evaluations: 1001
 
-computational Time: 9.89 s
+computational Time: 5.02 s
 
 convergence curve
 
 ![](convergenceCurve_dim_500.png)
+
+### Calculating the number of function evaluations
+
+The algorithm provides the number of iterations. The number of function evaluations is:  
+(1 + 2 * dimension) * numberIterations  
+since for each iteration and each dimension, gradient is numerically approximated.
