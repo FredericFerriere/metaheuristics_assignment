@@ -20,7 +20,7 @@ An important aspect of the algorithm is the choice of perturbation of the soluti
 
 ## Parameters:
 
-initial temperature: 10  
+initial temperature: 5  
 final temperature: 0.008  
 cool factor: 0.9  
 maximum number of iterations at given temperature: 1940 (10 times the number of cities)
@@ -223,10 +223,10 @@ city: 84 	 x: 50793.6111 	 y: 25419.4444
 city: 64 	 x: 50766.6667 	 y: 25316.6667  
 city: 19 	 x: 50807.2222 	 y: 25214.1667  
 
-Fitness: 10448 (known optimum 9352)  
-Number of function evaluations: 244,853  
+Fitness: 10547 (known optimum 9352)  
+Number of function evaluations: 224,466  
 Stopping Criterion: Number of function evaluations  
-Computational Time: 100.61 seconds  
+Computational Time: 41.1 seconds  
 
 Convergence curve:
 ![](convergenceCurves.png)
