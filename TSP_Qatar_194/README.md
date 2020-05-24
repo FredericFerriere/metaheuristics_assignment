@@ -28,7 +28,7 @@ maximum number of iterations at given temperature: 1940 (10 times the number of 
 ## Final Results:
 
 Solution:  
-city: 0 	 x: 50840.0 	 y: 24748.3333
+city: 0 	 x: 50840.0 	 y: 24748.3333  
 city: 1 	 x: 51211.9444 	 y: 24758.8889  
 city: 3 	 x: 51175.0 	 y: 24904.4444  
 city: 6 	 x: 51275.2778 	 y: 25030.8333  
